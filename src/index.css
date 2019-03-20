@@ -1,0 +1,170 @@
+@import '~antd/dist/antd.css';
+
+header.ant-layout-header{
+  background: #FFF;
+  padding: 0 15px;
+}
+
+header .header-left{
+  width: 70px;
+  float: left;
+  position: relative;
+  display: block;
+}
+header .logowrapper{
+  width: calc(100% - 130px);
+  position: relative;
+  display: block;
+  float: left;
+  text-align: center;
+}
+header .header-right{
+  width: 50px;
+  float: right;
+  position: relative;
+  display: block;
+  text-align: right;
+}
+.content{
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.filter .ant-tabs-bar {
+  background: darkgreen;
+  color: #FFF;
+  margin-bottom: 0;
+}
+
+.filter .ant-tabs-nav .ant-tabs-tab-active{
+  color: #FFF;
+}
+
+.filter .ant-tabs-nav .ant-tabs-tab-active{
+  background: #83cc83;
+}
+.ant-tabs-ink-bar{
+  height: 0px;
+}
+.filter .ant-tabs-nav .ant-tabs-tab{
+  margin: 0;
+  border-right: 1px solid #fff;
+  padding: 5px 12px;
+  font-size: 12px 
+}
+.filter .ant-tabs-nav .ant-tabs-tab:last-child{
+  margin: 0;
+  border-right: 1px solid #fff
+}
+
+.calender{
+  display: flex;
+}
+.calender .datewrapper{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  padding: 5px 10px;
+  text-align: center;
+  background: #ececec;
+  border: 1px solid #ddd;
+}
+.calender .datewrapper.disable{
+  background: rgb(184, 184, 184);
+  border: 1px solid rgb(170, 170, 170);
+}
+.calender .datewrapper.active{
+  background: #fff;
+  border: 1px solid #fff;
+}
+
+.calender .datewrapper .day{
+  margin-bottom: 5px;
+}
+.calender .datewrapper .date, .calender .datewrapper .month{
+  margin-bottom: 0;
+}
+.calender .bestprice{
+  color: darkgreen;
+  font-size: 10px;
+  margin: 5px 0 0 0;
+}
+
+.listwrapper, .listitem, .listdetail{
+  position: relative;
+  display: block;
+  float: left;
+  width: 100%;
+}
+.listwrapper{
+  background: #f5f5f5;
+}
+.listitem{
+  border-bottom: 1px solid #ddd;  
+  padding: 15px 15px 0 15px;
+}
+
+.listdetail .avtar{
+  margin-right: 10px;
+  float: left;
+  height: 50px;
+}
+
+.listdetail p{
+  margin-bottom: 0;
+}
+
+.packingtitledetails{
+  float: left;
+  width: calc(100% - 65px);
+}
+.listdetail h2{
+  margin-bottom: 0
+}
+
+.listdetail .bestprice{
+  color: darkgreen;
+  font-size: 12px;
+  margin: 5px 0;
+  float: right;
+}
+
+.packagetitle{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.extra-hours{
+  font-size: 12px;
+  float: right;
+}
+
+.packingtitledetails .price{
+  float: right;
+  text-align: right;
+}
+
+.listdetailitems{
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.listdetailitems .movers, .listdetailitems .hours{
+  font-size: 13px;
+}
+.servicedetails{
+  float: left;
+  width: 100%;
+  position: relative;
+  display: block;
+  padding-top: 10px;
+  border-top: 1px solid #cccccc; 
+}
+
+.servicedetails ul{
+  list-style-position: inside;
+  padding: 0;
+}
